@@ -27,7 +27,7 @@ export default function VenueCollection() {
                 Venue List
             </div>
             <div>
-                {venues && <ul className="w-full min-h-screen grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-2">
+                {venues && <ul className="w-full min-h-screen grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-2 p-[4%]">
                     {venues.map((item) => (
                         <li key={item.id} className="w-full p-[2%]">
                             <VenueCard
