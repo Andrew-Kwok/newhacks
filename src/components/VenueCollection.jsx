@@ -23,7 +23,7 @@ export default function VenueCollection() {
 
     return (
         <div>
-            <div>
+            <div className="text-3xl font-bold">
                 Venue List
             </div>
             <div>

@@ -1,4 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    reactStrictMode: true,
+}
 
-module.exports = nextConfig
+module.exports = {
+    publicRuntimeConfig: {
+        API_URL: "",
+    },
+    images: {
+        domains: ['localhost', 'images.unsplash.com', 'drewkwok.pythonanywhere.com']
+    },
+}
